@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Tradutor",
+    "slug": "Tradutor",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
