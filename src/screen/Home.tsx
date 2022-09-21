@@ -9,7 +9,7 @@ import SelectDropdown from 'react-native-select-dropdown'
 
 export const Home=()=>{
 
-    const countries = ["Egypt", "Canada", "Australia", "Ireland"]
+    const countries = ["Egypt", "Canada", "Australia", "Irela"]
     const [fromLanguanges,setFromLanguanges]=useState<string>()
     const [toLanguanges,setToLanguanges]=useState<string>()
     
