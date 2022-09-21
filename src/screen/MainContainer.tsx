@@ -18,7 +18,9 @@ function MainContainer() {
       <Tab.Navigator
         
         initialRouteName={homeName}
+        sceneContainerStyle={{backgroundColor:"#04050B"}}
         screenOptions={({ route }) => ({
+          
           tabBarIcon: ({ focused, color, size }) => {
             let iconName;
             let rn = route.name;
@@ -33,7 +35,9 @@ function MainContainer() {
 
             return <Ionicons name={iconName} size={size} color={color} />;
           },
-              tabBarStyle: { position: 'absolute' },
+          tabBarStyle: {backgroundColor:"#04050B"},
+          headerTitleStyle:{color:"white"},
+          headerStyle:{backgroundColor:"#04050B" },
         })
       }
         >
